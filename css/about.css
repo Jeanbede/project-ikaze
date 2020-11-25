@@ -1,0 +1,81 @@
+table, th, td {
+    background-origin: padding-box;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: magenta;
+    margin-top: 10px;
+}
+
+nav> ul> li{
+    
+    border: black;
+    box-decoration-break: clone;
+    background-color: green;
+    display: inline;
+    box-sizing: 40px;
+}
+nav> ul{
+    list-style: none;
+       
+    }
+
+   span{
+        background-color: rgb(151, 145, 145);
+        color: rgb(30, 41, 30);
+        font-style: bold;
+    }
+    
+    .text-block{
+        float: right;
+        }
+        .text-block >p{
+           margin-right: 800px;
+        }
+        .areas{
+            background-color: rgb(135, 153, 135);
+            text-shadow: 2px 2px brown;
+            color: black;
+            font-style: italic;
+            font-size: 25px;
+            border: black;
+        }
+        
+       .blink{
+        color: green;
+        font-size: 40px;
+        text-emphasis: none;
+        text-shadow: 2px 2px blue;
+        background-color: rgb(76, 101, 110);" ;
+        font: fantasy;
+       }    
+
+       .slides{
+        
+        background-color: green;           
+      }
+
+      .slides p{
+        text-emphasis: none;
+        text-shadow: brown;
+        text-align: center;
+    }
+
+
+    h5{
+        text-shadow: 2px 2px green;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+        }
+
+        .offer>ul>li:hover{
+            text-shadow:black;
+            font-weight: Bold;
+            font-style: opaque;
+            color: brown;
+            display: flex;
+        
+            }
